@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ContactUS</title>
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    @*Start Header*@
+    <header class="mt-5">
+        <Center>
+            <a href="Home/Index" class="btn btn-outline-danger">Home</a>
+            <a href="Home/AboutUs" class="btn btn-outline-info">About Us</a>
+            <a href="Home/ContactUS" class="btn btn-outline-warning">Contact Us</a>
+            <a href="Account/Login" class="btn btn-outline-success">Login</a>
+            <a href="Account/Regsiter" class="btn btn-outline-light">Register</a>
+        </Center>
+    </header>
+    @*End Header*@
+    @*Start Body*@
+    <section class="mt-5 p-3 bg-warning">
+        <center>
+            <h1>Welcom To Contact Page</h1>
+            <p>Lorem isp......</p>
+        </center>
+    </section>
+    @*End Body*@
+    @*Start Footer*@
+    <center>
+        <p>CopyRights &copy; @DateTime.Now.Year </p>
+    </center>
+    @*End Footer*@
+</body>
+</html>
